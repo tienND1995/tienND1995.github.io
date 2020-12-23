@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Modal</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="modal">
+			<div class="modal-overlay">
+				<div class="modal-wrapper">
+					<div class="modal-header">
+						<h1 class="modal-title">What's the hell?</h1>
+						<button type="button" class="x">x</button>
+					</div>
+					<div class="modal-body">
+						<p><b>My love!</b></p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="close"><b>Close<b></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="all">
+			<button type="button" class="show"><b><i>Click me</i></b></button>
+		</div>
+		<script src="jquery-3.5.1.min.js"></script>
+		<script>
+			$(".show").click(function(e){
+				e.preventDefault();
+				$(".modal").toggleClass("isvisible");
+			});
+			$(".x").click(function(){
+				$(".modal").removeClass("isvisible");
+			});
+			$(".close").click(function(){
+				$(".modal").removeClass("isvisible");
+			});
+		</script>
+	</body>
+</html>

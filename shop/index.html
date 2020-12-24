@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="utf-8">
+        <title>Shopx-pkg</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+		<!--start header-->
+        <header>
+            <div class="container">
+                <div class="row top-header">
+                    <div class="search col-xl-2">
+                        <div class="input-group">
+                            <div class="input-group-btn">
+								<button type="submit" class="btn">
+									<span class="fa fa-search"></span>
+								</button>
+							</div>
+							<input class="form-control-plaintext" type="text" placeholder="SEARCH" aria-describedby="search-a">
+                        </div>
+                    </div>
+                    <div class="shopx col-xl-8">
+                        <img src="img/shopx.jpg" alt="shopx">
+                    </div>
+                    <div class="icon col-xl-2 row">
+                        <div class="dropdown">
+							<button type="button" class="btn btn-white" data-toggle="dropdown">
+								<i class="far fa-user-circle"></i>
+							</button>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#">Login</a>
+								<a class="dropdown-item" href="#">Log out</a>
+								<a class="dropdown-item" href="#">Security</a>
+							</div>
+                        </div>
+                        <div class="dropdown">
+							<button type="button" class="btn btn-white positon" data-toggle="dropdown">
+								<i class="fas fa-shopping-cart"></i>
+                                <span class="badge badge-light">3</span>	
+							</button>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#">Hot</a>
+								<a class="dropdown-item" href="#">New</a>
+								<a class="dropdown-item" href="#">Discount</a>
+                            </div>
+                            
+						</div>
+						<div class="dropdown">
+							<button type="button" class="btn btn-white" data-toggle="dropdown">
+								<i class="fas fa-align-right"></i>
+							</button>
+							<div class="dropdown-menu">
+								<div class="dropdown-header" href="#">Language</div>
+								<a class="dropdown-item" href="#">English</a>
+								<a class="dropdown-item" href="#">Viet Nam</a>
+							</div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row justify-content-center">
+					<ul class="nav nav-menu">
+						<li class="nav-item">
+							<a class="nav-link" href="#" title="home">HOME</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#" title="shop">SHOP</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#" title="element">ELEMENT</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#" title="pages">PAGES</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#" title="portfolio">PORTFOLIO</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#" title="blogs">BLOGS</a>
+						</li>
+					</ul>
+				</div>
+            </div>
+        </header>
+		<!--end header-->
+		<!--start section-->
+		<section>
+			<div class="container-fluid">
+				<div class="row">
+					<div id="demo" class="carousel slide col-xl-12" data-ride="carousel">
+						<ul class="carousel-indicators">
+							<li data-target="#demo" data-slide-to="0" class="active"></li>
+							<li data-target="#demo" data-slide-to="1" ></li>
+							<li data-target="#demo" data-slide-to="2" ></li>
+						</ul>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="img/img1.jpg" alt="cửa hàng">
+							</div>
+							<div class="carousel-item ">
+								<img src="img/img2.jpg" alt="cửa hàng">
+							</div>
+							<div class="carousel-item ">
+								<img src="img/img3.jpg" alt="cửa hàng">
+							</div>
+						</div>
+						<a class="carousel-control-prev" href="#demo" data-slide="prev">
+							<span class="carousel-control-prev-icon"></span>
+						</a>
+						<a class="carousel-control-next" href="#demo" data-slide="next">
+							<span class="carousel-control-next-icon"></span>
+						</a>
+						<div class="word">
+							<div class="text-1">
+								<div class="new">New
+									<span class="arrivals">arrivals</span>
+								</div>
+							</div>
+							<div class="text-2">
+								<div class="skyplanter">Sky Planter
+									<span class="money">$18.00</span>
+								</div>
+							</div>
+							<div class="text-3">
+								<a class="user-link" href="#" title="shopnow">SHOP NOW</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="product">
+				<div class="container">
+					<div class="row top-product">
+						<div class="dropdown col-1">
+							<button type="button" class="btn btn-white" data-toggle="dropdown">
+								<i class="fas fa-align-right"></i>
+							</button>
+							<div class="dropdown-menu">
+								<div class="dropdown-header" href="#">Menu</div>
+								<a class="dropdown-item" href="#">product</a>
+								<a class="dropdown-item" href="#">unit price</a>
+							</div>
+						</div>
+						<ul class="nav nav-tabs  col-5" role="tablist">
+							<li class="nav-item">
+								<a class="nav-link" data-toggle="tab" href="#all">ALL</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" data-toggle="tab" href="#line">LINE</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" data-toggle="tab" href="#rings">RINGS</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" data-toggle="tab" href="#clock">CLOCK</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" data-toggle="tab" href="#earrings">EARRINGS</a>
+							</li>
+						</ul>
+						<div class="col-4"></div>
+						<div class="search-tow col-2">
+							<div class="input-group">
+								<div class="input-group-btn">
+									<button type="submit" class="btn">
+										<span class="fa fa-search"></span>
+									</button>
+								</div>
+								<input class="form-control-plaintext" type="text" placeholder="SEARCH" aria-describedby="search-a">
+							</div>
+						</div>
+					</div>
+					<div class="tab-content">
+						<div id ="all" class="tab-pane active">
+							<div class="row">
+								<div id="item" class="col-xl-4 row">
+									<div class="col-xl-3">
+										<div class="icon-a">
+											<button type="button" class="btn btn-white" data-toggle="modal" data-target="#myModal">
+												<i class="fas fa-align-right"></i>
+											</button>
+											<div class="modal" id="myModal">
+												<div class="modal-dialog">
+													<div class="modal-content">
+														<div class="modal-header">
+															<h4 class="modal-title">shopping</h4>
+															<button type="button" class="close" data-dismiss="modal">&times;</button>
+														</div>
+														<div class="modal-body">
+															like
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="icon-aa">
+											<a href="#" title="heart">
+												<i class="far fa-heart"></i>
+											</a>
+										</div>
+										<div class="icon-aaa">
+											<a href="#" title="all">
+												<i class="fas fa-align-left"></i>
+											</a>
+										</div>
+									</div>
+									<div class="col-xl-9">
+										<div class="new-b">
+											<img class="image" src="img/aa.jpg" alt="aaa">
+											<div class="new-new"></div>
+											<span class="let">NEW</span>
+											<div class="abc">
+												<div>Engagement ring</div>
+												<div class="usd">
+													<span><del>$2.000</del></span>  $1.500
+												</div>
+												<a class="user-link" href="#" title="cart">
+													<i class="fas fa-shopping-cart"></i>
+													ADD TO CART
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="item" class="col-xl-4 row">
+									<div class="col-xl-3">
+										<div class="icon-a">
+											<button type="button" class="btn btn-white" data-toggle="modal" data-target="#myModal">
+												<i class="fas fa-align-right"></i>
+											</button>
+											<div class="modal" id="myModal">
+												<div class="modal-dialog">
+													<div class="modal-content">
+														<div class="modal-header">
+															<h4 class="modal-title">shopping</h4>
+															<button type="button" class="close" data-dismiss="modal">&times;</button>
+														</div>
+														<div class="modal-body">
+															like
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="icon-aa">
+											<a href="#" title="heart">
+												<i class="far fa-heart"></i>
+											</a>
+										</div>
+										<div class="icon-aaa">
+											<a href="#" title="all">
+												<i class="fas fa-align-left"></i>
+											</a>
+										</div>
+									</div>
+									<div class="col-xl-9">
+										<div class="hot-b">
+											<img class="image" src="img/a.jpg" alt="aaa">
+											<div class="hot-c"></div>
+											<span class="hot">HOT</span>
+											<div class="abc">
+												<div>Wedding ring</div>
+												<div class="usd">
+													<span><del>$5.000</del></span>  $4.000
+												</div>
+												<a class="user-link" href="#" title="cart">
+													<i class="fas fa-shopping-cart"></i>
+													ADD TO CART
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="item" class="col-xl-4 row">
+									<div class="col-xl-3">
+										<div class="icon-a">
+											<button type="button" class="btn btn-white" data-toggle="modal" data-target="#myModal">
+												<i class="fas fa-align-right"></i>
+											</button>
+											<div class="modal" id="myModal">
+												<div class="modal-dialog">
+													<div class="modal-content">
+														<div class="modal-header">
+															<h4 class="modal-title">shopping</h4>
+															<button type="button" class="close" data-dismiss="modal">&times;</button>
+														</div>
+														<div class="modal-body">
+															like
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="icon-aa">
+											<a href="#" title="heart">
+												<i class="far fa-heart"></i>
+											</a>
+										</div>
+										<div class="icon-aaa">
+											<a href="#" title="all">
+												<i class="fas fa-align-left"></i>
+											</a>
+										</div>
+									</div>
+									<div class="col-xl-9">
+										<div class="new-b">
+											<img class="image" src="img/aaa.jpg" alt="aaa">
+											<div class="new-new"></div>
+											<span class="let">NEW</span>
+											<div class="abc">
+												<div>Diamond ring</div>
+												<div class="usd">
+													<span><del>4.000</del></span>  $3.500
+												</div>
+												<a class="user-link" href="#" title="cart">
+													<i class="fas fa-shopping-cart"></i>
+													ADD TO CART
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row last-product">
+								<div id="item" class="col-xl-4 row">
+									<div class="col-xl-3">
+										<div class="icon-a">
+											<button type="button" class="btn btn-white" data-toggle="modal" data-target="#myModal">
+												<i class="fas fa-align-right"></i>
+											</button>
+											<div class="modal" id="myModal">
+												<div class="modal-dialog">
+													<div class="modal-content">
+														<div class="modal-header">
+															<h4 class="modal-title">shopping</h4>
+															<button type="button" class="close" data-dismiss="modal">&times;</button>
+														</div>
+														<div class="modal-body">
+															like
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="icon-aa">
+											<a href="#" title="heart">
+												<i class="far fa-heart"></i>
+											</a>
+										</div>
+										<div class="icon-aaa">
+											<a href="#" title="all">
+												<i class="fas fa-align-left"></i>
+											</a>
+										</div>
+									</div>
+									<div class="col-xl-9">
+										<div class="new-b">
+											<img class="image" src="img/b.jpg" alt="aaa">
+											<div class="new-new"></div>
+											<span class="let">NEW</span>
+											<div class="abc">
+												<div>Watch</div>
+												<div class="usd">
+													<span><del>$3.000</del></span>  $2.500
+												</div>
+												<a class="user-link" href="#" title="cart">
+													<i class="fas fa-shopping-cart"></i>
+													ADD TO CART
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="item" class="col-xl-4 row">
+									<div class="col-xl-3">
+										<div class="icon-a">
+											<button type="button" class="btn btn-white" data-toggle="modal" data-target="#myModal">
+												<i class="fas fa-align-right"></i>
+											</button>
+											<div class="modal" id="myModal">
+												<div class="modal-dialog">
+													<div class="modal-content">
+														<div class="modal-header">
+															<h4 class="modal-title">shopping</h4>
+															<button type="button" class="close" data-dismiss="modal">&times;</button>
+														</div>
+														<div class="modal-body">
+															like
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="icon-aa">
+											<a href="#" title="heart">
+												<i class="far fa-heart"></i>
+											</a>
+										</div>
+										<div class="icon-aaa">
+											<a href="#" title="all">
+												<i class="fas fa-align-left"></i>
+											</a>
+										</div>
+									</div>
+									<div class="col-xl-9">
+										<div class="hot-b">
+											<img class="image" src="img/bb.jpg" alt="aaa">
+											<div class="hot-c"></div>
+											<span class="hot">HOT</span>
+											<div class="abc">
+												<div>Piercing</div>
+												<div class="usd">
+													<span><del>$10.000</del></span>  $9.000
+												</div>
+												<a class="user-link" href="#" title="cart">
+													<i class="fas fa-shopping-cart"></i>
+													ADD TO CART
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="item" class="col-xl-4 row">
+									<div class="col-xl-3">
+										<div class="icon-a">
+											<button type="button" class="btn btn-white" data-toggle="modal" data-target="#myModal">
+												<i class="fas fa-align-right"></i>
+											</button>
+											<div class="modal" id="myModal">
+												<div class="modal-dialog">
+													<div class="modal-content">
+														<div class="modal-header">
+															<h4 class="modal-title">shopping</h4>
+															<button type="button" class="close" data-dismiss="modal">&times;</button>
+														</div>
+														<div class="modal-body">
+															like
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="icon-aa">
+											<a href="#" title="heart">
+												<i class="far fa-heart"></i>
+											</a>
+										</div>
+										<div class="icon-aaa">
+											<a href="#" title="all">
+												<i class="fas fa-align-left"></i>
+											</a>
+										</div>
+									</div>
+									<div class="col-xl-9">
+										<div class="new-b">
+											<img class="image" src="img/bbbb.jpg" alt="aaa">
+											<div class="new-new"></div>
+											<span class="let">NEW</span>
+											<div class="abc">
+												<div>Lava Vtase</div>
+												<div class="usd">
+													<span><del>$2.000</del></span>  $1.500
+												</div>
+												<a class="user-link" href="#" title="cart">
+													<i class="fas fa-shopping-cart"></i>
+													ADD TO CART
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="line" class="tab-pane fade">
+							<div class="row">
+								<div id="item" class="col-xl-4 row">
+									<div class="col-xl-3">
+										<div class="icon-a">
+											<button type="button" class="btn btn-white" data-toggle="modal" data-target="#myModal">
+												<i class="fas fa-align-right"></i>
+											</button>
+											<div class="modal" id="myModal">
+												<div class="modal-dialog">
+													<div class="modal-content">
+														<div class="modal-header">
+															<h4 class="modal-title">shopping</h4>
+															<button type="button" class="close" data-dismiss="modal">&times;</button>
+														</div>
+														<div class="modal-body">
+															like
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="icon-aa">
+											<a href="#" title="heart">
+												<i class="far fa-heart"></i>
+											</a>
+										</div>
+										<div class="icon-aaa">
+											<a href="#" title="all">
+												<i class="fas fa-align-left"></i>
+											</a>
+										</div>
+									</div>
+									<div class="col-xl-9">
+										<div class="new-b">
+											<img class="image" src="img/bbbb.jpg" alt="aaa">
+											<div class="new-new"></div>
+											<span class="let">NEW</span>
+											<div class="abc">
+												<div>Lava Vtase</div>
+												<div class="usd">
+													<span><del>$2.000</del></span>  $1.500
+												</div>
+												<a class="user-link" href="#" title="cart">
+													<i class="fas fa-shopping-cart"></i>
+													ADD TO CART
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="rings" class="tab-pane fade">
+							<div class="row">
+								<div id="item" class="col-xl-4 row">
+									<div class="col-xl-3">
+										<div class="icon-a">
+											<button type="button" class="btn btn-white" data-toggle="modal" data-target="#myModal">
+												<i class="fas fa-align-right"></i>
+											</button>
+											<div class="modal" id="myModal">
+												<div class="modal-dialog">
+													<div class="modal-content">
+														<div class="modal-header">
+															<h4 class="modal-title">shopping</h4>
+															<button type="button" class="close" data-dismiss="modal">&times;</button>
+														</div>
+														<div class="modal-body">
+															like
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="icon-aa">
+											<a href="#" title="heart">
+												<i class="far fa-heart"></i>
+											</a>
+										</div>
+										<div class="icon-aaa">
+											<a href="#" title="all">
+												<i class="fas fa-align-left"></i>
+											</a>
+										</div>
+									</div>
+									<div class="col-xl-9">
+										<div class="new-b">
+											<img class="image" src="img/aa.jpg" alt="aaa">
+											<div class="new-new"></div>
+											<span class="let">NEW</span>
+											<div class="abc">
+												<div>Engagement ring</div>
+												<div class="usd">
+													<span><del>$2.000</del></span>  $1.500
+												</div>
+												<a class="user-link" href="#" title="cart">
+													<i class="fas fa-shopping-cart"></i>
+													ADD TO CART
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="item" class="col-xl-4 row">
+									<div class="col-xl-3">
+										<div class="icon-a">
+											<button type="button" class="btn btn-white" data-toggle="modal" data-target="#myModal">
+												<i class="fas fa-align-right"></i>
+											</button>
+											<div class="modal" id="myModal">
+												<div class="modal-dialog">
+													<div class="modal-content">
+														<div class="modal-header">
+															<h4 class="modal-title">shopping</h4>
+															<button type="button" class="close" data-dismiss="modal">&times;</button>
+														</div>
+														<div class="modal-body">
+															like
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="icon-aa">
+											<a href="#" title="heart">
+												<i class="far fa-heart"></i>
+											</a>
+										</div>
+										<div class="icon-aaa">
+											<a href="#" title="all">
+												<i class="fas fa-align-left"></i>
+											</a>
+										</div>
+									</div>
+									<div class="col-xl-9">
+										<div class="hot-b">
+											<img class="image" src="img/a.jpg" alt="aaa">
+											<div class="hot-c"></div>
+											<span class="hot">HOT</span>
+											<div class="abc">
+												<div>Wedding ring</div>
+												<div class="usd">
+													<span><del>$5.000</del></span>  $4.000
+												</div>
+												<a class="user-link" href="#" title="cart">
+													<i class="fas fa-shopping-cart"></i>
+													ADD TO CART
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="item" class="col-xl-4 row">
+									<div class="col-xl-3">
+										<div class="icon-a">
+											<button type="button" class="btn btn-white" data-toggle="modal" data-target="#myModal">
+												<i class="fas fa-align-right"></i>
+											</button>
+											<div class="modal" id="myModal">
+												<div class="modal-dialog">
+													<div class="modal-content">
+														<div class="modal-header">
+															<h4 class="modal-title">shopping</h4>
+															<button type="button" class="close" data-dismiss="modal">&times;</button>
+														</div>
+														<div class="modal-body">
+															like
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="icon-aa">
+											<a href="#" title="heart">
+												<i class="far fa-heart"></i>
+											</a>
+										</div>
+										<div class="icon-aaa">
+											<a href="#" title="all">
+												<i class="fas fa-align-left"></i>
+											</a>
+										</div>
+									</div>
+									<div class="col-xl-9">
+										<div class="new-b">
+											<img class="image" src="img/aaa.jpg" alt="aaa">
+											<div class="new-new"></div>
+											<span class="let">NEW</span>
+											<div class="abc">
+												<div>Diamond ring</div>
+												<div class="usd">
+													<span><del>4.000</del></span>  $3.500
+												</div>
+												<a class="user-link" href="#" title="cart">
+													<i class="fas fa-shopping-cart"></i>
+													ADD TO CART
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="clock" class="tab-pane fade">
+							<div class="row">
+								<div id="item" class="col-xl-4 row">
+									<div class="col-xl-3">
+										<div class="icon-a">
+											<button type="button" class="btn btn-white" data-toggle="modal" data-target="#myModal">
+												<i class="fas fa-align-right"></i>
+											</button>
+											<div class="modal" id="myModal">
+												<div class="modal-dialog">
+													<div class="modal-content">
+														<div class="modal-header">
+															<h4 class="modal-title">shopping</h4>
+															<button type="button" class="close" data-dismiss="modal">&times;</button>
+														</div>
+														<div class="modal-body">
+															like
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="icon-aa">
+											<a href="#" title="heart">
+												<i class="far fa-heart"></i>
+											</a>
+										</div>
+										<div class="icon-aaa">
+											<a href="#" title="all">
+												<i class="fas fa-align-left"></i>
+											</a>
+										</div>
+									</div>
+									<div class="col-xl-9">
+										<div class="new-b">
+											<img class="image" src="img/b.jpg" alt="aaa">
+											<div class="new-new"></div>
+											<span class="let">NEW</span>
+											<div class="abc">
+												<div>Watch</div>
+												<div class="usd">
+													<span><del>$3.000</del></span>  $2.500
+												</div>
+												<a class="user-link" href="#" title="cart">
+													<i class="fas fa-shopping-cart"></i>
+													ADD TO CART
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="earrings" class="tab-pane fade">
+							<div class="row">
+								<div id="item" class="col-xl-4 row">
+									<div class="col-xl-3">
+										<div class="icon-a">
+											<button type="button" class="btn btn-white" data-toggle="modal" data-target="#myModal">
+												<i class="fas fa-align-right"></i>
+											</button>
+											<div class="modal" id="myModal">
+												<div class="modal-dialog">
+													<div class="modal-content">
+														<div class="modal-header">
+															<h4 class="modal-title">shopping</h4>
+															<button type="button" class="close" data-dismiss="modal">&times;</button>
+														</div>
+														<div class="modal-body">
+															like
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="icon-aa">
+											<a href="#" title="heart">
+												<i class="far fa-heart"></i>
+											</a>
+										</div>
+										<div class="icon-aaa">
+											<a href="#" title="all">
+												<i class="fas fa-align-left"></i>
+											</a>
+										</div>
+									</div>
+									<div class="col-xl-9">
+										<div class="hot-b">
+											<img class="image" src="img/bb.jpg" alt="aaa">
+											<div class="hot-c"></div>
+											<span class="hot">HOT</span>
+											<div class="abc">
+												<div>Piercing</div>
+												<div class="usd">
+													<span><del>$10.000</del></span>  $9.000
+												</div>
+												<a class="user-link" href="#" title="cart">
+													<i class="fas fa-shopping-cart"></i>
+													ADD TO CART
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			 <!-- start four -->
+			<div class="four">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-xl-2"></div>
+						<div class="col-xl-4">
+							<div class="four-a">
+								<div class="four-aa"><del>$65.00</del></div>
+								<div class="four-ab">$35.00</div>
+							</div>
+						</div>
+						<div class="col-xl-6">
+							<img class="layer-aa" src="img/layer.png" alt="layer">
+							<div class="layer-a">	
+								<div class="text-a">Welcome</div>
+								<div class="text-b">
+									<div class="text-ba">Featured</div>
+									<img class="layer-b" src="img/swarovski.webp" alt="fox">
+									<div class="text-bb">
+										<div class="text-bba">Mission</div>
+										<p class="text-bbb">Core values</p>
+										<p class="text-bbc">
+											Help customers with style, beautiful and more confident.
+											<br>Building a strong Vietnamese brand.
+											<br>Create many jobs for Vietnamese.
+											
+										</p>
+										<a class="text-bbd" href="#" title="now">Shop Now</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xl-3 icon-special">
+						<i class="fas fa-truck icon-o"></i>
+						<p class="text-c">FAST DELIVERY</p>
+						<p class="text-d">Same day delivery as soon as possible</p>
+					</div>
+					<div class="col-xl-3 icon-special">
+						<i class="fas fa-tags icon-o"></i>
+						<p class="text-c">SPECIAL DISCOUNT</p>
+						<p class="text-d">Get attractive offers day by day</p>
+					</div>
+					<div class="col-xl-3 icon-special">
+						<i class="fas fa-lock-open icon-o"></i>
+						<p class="text-c">SECURE CHECKOUT</p>
+						<p class="text-d">Fully secured SSL checkout technology</p>
+					</div>
+					<div class="col-xl-3 icon-special">
+						<i class="fas fa-coins icon-o"></i>
+						<p class="text-c">MONEY RETURNS</p>
+						<p class="text-d">100% Money back guarntee</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end section -->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-4">
+						<a href="#" title="logo"><img class="logo-a" src="img/logo.png" alt="logo"></a>
+						<p class="text-e">Watson Website Builder is a big library of pre-designed web elements which help you create website in few minutes.</p>
+						<a class="readmore" href="#">Read more<span class="fas fa-angle-double-right"></span></a>
+					</div>
+					<div class="col-xl-2">
+						<p class="text-f">Useful Link</p>
+						<ul class="nav">
+							<li class="nav-item">
+								<a class="nav-link link-b" href="#"><span class="fas fa-angle-double-right"></span> Our Brands</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link link-b" href="#"><span class="fas fa-angle-double-right"></span> Special Offers</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link link-b" href="#"><span class="fas fa-angle-double-right"></span> Help Topics</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link link-b" href="#"><span class="fas fa-angle-double-right"></span> Delivery Information</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link link-b" href="#"><span class="fas fa-angle-double-right"></span> Social Media</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-xl-2">
+						<ul class="nav list-b">
+							<li class="nav-item">
+								<a class="nav-link link-b" href="#"><span class="fas fa-angle-double-right"></span> Gift Vouchers</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link link-b" href="#"><span class="fas fa-angle-double-right"></span> Latest Jobs</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link link-b" href="#"><span class="fas fa-angle-double-right"></span> ELETerms & Conditions</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link link-b" href="#"><span class="fas fa-angle-double-right"></span> Affiliates</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-xl-4 list-c">
+						<a class="instagram" href="https://www.instagram.com/" title="instagram">
+							<span class="fab fa-instagram"></span>Instagram
+						</a>
+						<div class="d-flex">
+							<img src="img/img1.jpg" alt="shopone" width="86" height="100">
+							<img src="img/img2.jpg" alt="shopone" width="86" height="100">
+							<img src="img/img3.jpg" alt="shopone" width="86" height="100">
+							<img src="img/img4.jpg" alt="shopone" width="86" height="100">
+						</div>
+						<div class="d-flex">
+							<img src="img/img5.jpg" alt="shopone" width="86" height="100">
+							<img src="img/img6.jpg" alt="shopone" width="86" height="100">
+							<img src="img/img7.jpg" alt="shopone" width="86" height="100">
+							<img src="img/img8.jpg" alt="shopone" width="86" height="100">
+						</div>
+						
+						<a class="payment" href="https://phuquy.com.vn/">
+							<img class="payment-a" src="img/phuongthucthanhtoan.png" alt="phuongthucthanhtoan">
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</html>
